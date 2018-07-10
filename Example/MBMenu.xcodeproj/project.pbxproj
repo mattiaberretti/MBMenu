@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08A33DCF8ACE7D39C674B2F8 /* Pods_MBMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344DD5907223C6C239DCBE36 /* Pods_MBMenu_Tests.framework */; };
+		4909A6E620F4F5E100122321 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4909A6E520F4F5E100122321 /* SideMenu.storyboard */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		079963C76896AA89CC3A76F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		15BB607F36578B078BE54D06 /* Pods-MBMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBMenu_Example/Pods-MBMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		344DD5907223C6C239DCBE36 /* Pods_MBMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4909A6E520F4F5E100122321 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		4B81E87C28658EE567EF3AD5 /* Pods-MBMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBMenu_Example/Pods-MBMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MBMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		651F23603B9897D3380EB857 /* Pods_MBMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864DF65B2E6DCD486EF0A6F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		997752AEBD9AFD616B210D6C /* Pods-MBMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBMenu_Tests/Pods-MBMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFE7D8296DC7CA92296D0051 /* MBMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBMenu.podspec; path = ../MBMenu.podspec; sourceTree = "<group>"; };
+		BFE7D8296DC7CA92296D0051 /* MBMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBMenu.podspec; path = ../MBMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF8E656528CEE927BE8E4CCA /* Pods-MBMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBMenu_Tests/Pods-MBMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				4909A6E520F4F5E100122321 /* SideMenu.storyboard */,
 			);
 			name = "Example for MBMenu";
 			path = MBMenu;
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4909A6E620F4F5E100122321 /* SideMenu.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

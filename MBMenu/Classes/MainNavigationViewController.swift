@@ -46,7 +46,8 @@ class MainNavigationViewController: UINavigationController, UITableViewDelegate 
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: animated)
         if showMenu, let controller = self.viewControllers.first {
-            controller.navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "MenuIcon"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.showMenu(_:)))
+            let img = UIImage(named: "menuIcon", in: Bundle(for: MainNavigationViewController.self), compatibleWith: nil)
+            controller.navigationItem.leftBarButtonItem = UIBarButtonItem(image: img!, style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.showMenu(_:)))
         }
     }
     

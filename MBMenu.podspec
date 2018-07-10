@@ -33,9 +33,11 @@ Classi per la gestione di SideMenu semplificate
 
   s.source_files = 'MBMenu/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MBMenu' => ['MBMenu/Assets/*.png']
-  # }
+  s.resources = 'MBMenu/Assets/*.png'
+  
+  #s.resource_bundles = {
+  #  'MBMenuIcon' => ['MBMenu/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
