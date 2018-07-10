@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 Classi per la gestione di SideMenu semplificate
                        DESC
 
-  s.homepage         = 'https://github.com/mattia.berretti@gmail.com/MBMenu'
+  s.homepage         = 'https://github.com/mattiaberretti/MBMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mattia.berretti@gmail.com' => 'mattia.berretti@gmail.com' }
