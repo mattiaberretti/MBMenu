@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MBMenu_Example' do
+  pod 'MBMenu', :path => '../'
+
+  target 'MBMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
